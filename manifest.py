@@ -44,10 +44,13 @@ if not manifest.empty:
     manifest = manifest.sort_values(
         ["sample_id", "filepath"]
     )
-    manifest.to_csv("manifest.csv", index=False)
+    manifest.to_csv("/Users/shaswatshrey/Development/MajorProject/manifest.csv", index=False)
 
     print("Manifest created successfully!")
     print("Shape:", manifest.shape)
     print(manifest.head())
 else:
     print("No CSV files were found.")
+
+with open('/Users/shaswatshrey/Development/MajorProject/manifest.csv', 'rb') as f:
+    print(f.readline())
