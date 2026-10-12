@@ -1,0 +1,241 @@
+block_size,features,model,held_out_sample,alpha
+2,heat_input only,Ridge,1,3.727593720314938
+2,heat_input only,Ridge,2,13.89495494373136
+2,heat_input only,Ridge,3,1.3894954943731375
+2,heat_input only,Ridge,4,10.0
+2,heat_input only,Ridge,5,10.0
+2,heat_input only,Ridge,6,2.6826957952797246
+2,heat_input only,Ridge,7,37.27593720314938
+2,heat_input only,Ridge,8,13.89495494373136
+2,process params,Ridge,1,10.0
+2,process params,Ridge,2,13.89495494373136
+2,process params,Ridge,3,5.179474679231207
+2,process params,Ridge,4,26.82695795279722
+2,process params,Ridge,5,19.306977288832496
+2,process params,Ridge,6,0.5179474679231207
+2,process params,Ridge,7,13.89495494373136
+2,process params,Ridge,8,13.89495494373136
+2,notebook feats,Ridge,1,3.727593720314938
+2,notebook feats,Ridge,2,3.727593720314938
+2,notebook feats,Ridge,3,1.3894954943731375
+2,notebook feats,Ridge,4,5.179474679231207
+2,notebook feats,Ridge,5,13.89495494373136
+2,notebook feats,Ridge,6,5.179474679231207
+2,notebook feats,Ridge,7,5.179474679231207
+2,notebook feats,Ridge,8,5.179474679231207
+2,AE feats only,Ridge,1,0.1
+2,AE feats only,Ridge,2,0.2682695795279725
+2,AE feats only,Ridge,3,1.0
+2,AE feats only,Ridge,4,0.1
+2,AE feats only,Ridge,5,1.3894954943731375
+2,AE feats only,Ridge,6,1.0
+2,AE feats only,Ridge,7,0.19306977288832497
+2,AE feats only,Ridge,8,0.19306977288832497
+2,all feats,Ridge,1,0.0517947467923121
+2,all feats,Ridge,2,0.2682695795279725
+2,all feats,Ridge,3,0.7196856730011514
+2,all feats,Ridge,4,0.07196856730011518
+2,all feats,Ridge,5,1.3894954943731375
+2,all feats,Ridge,6,1.0
+2,all feats,Ridge,7,0.2682695795279725
+2,all feats,Ridge,8,0.1
+3,heat_input only,Ridge,1,5.179474679231207
+3,heat_input only,Ridge,2,26.82695795279722
+3,heat_input only,Ridge,3,1.9306977288832496
+3,heat_input only,Ridge,4,19.306977288832496
+3,heat_input only,Ridge,5,10.0
+3,heat_input only,Ridge,6,3.727593720314938
+3,heat_input only,Ridge,7,71.96856730011514
+3,heat_input only,Ridge,8,26.82695795279722
+3,process params,Ridge,1,10.0
+3,process params,Ridge,2,13.89495494373136
+3,process params,Ridge,3,7.196856730011514
+3,process params,Ridge,4,26.82695795279722
+3,process params,Ridge,5,19.306977288832496
+3,process params,Ridge,6,0.5179474679231207
+3,process params,Ridge,7,13.89495494373136
+3,process params,Ridge,8,13.89495494373136
+3,notebook feats,Ridge,1,3.727593720314938
+3,notebook feats,Ridge,2,2.6826957952797246
+3,notebook feats,Ridge,3,1.0
+3,notebook feats,Ridge,4,3.727593720314938
+3,notebook feats,Ridge,5,7.196856730011514
+3,notebook feats,Ridge,6,3.727593720314938
+3,notebook feats,Ridge,7,3.727593720314938
+3,notebook feats,Ridge,8,3.727593720314938
+3,AE feats only,Ridge,1,0.1
+3,AE feats only,Ridge,2,0.13894954943731375
+3,AE feats only,Ridge,3,0.3727593720314938
+3,AE feats only,Ridge,4,0.1
+3,AE feats only,Ridge,5,1.3894954943731375
+3,AE feats only,Ridge,6,0.2682695795279725
+3,AE feats only,Ridge,7,0.1
+3,AE feats only,Ridge,8,0.19306977288832497
+3,all feats,Ridge,1,0.1
+3,all feats,Ridge,2,0.19306977288832497
+3,all feats,Ridge,3,0.2682695795279725
+3,all feats,Ridge,4,0.1
+3,all feats,Ridge,5,1.3894954943731375
+3,all feats,Ridge,6,0.2682695795279725
+3,all feats,Ridge,7,0.013894954943731374
+3,all feats,Ridge,8,0.07196856730011518
+4,heat_input only,Ridge,1,3.727593720314938
+4,heat_input only,Ridge,2,13.89495494373136
+4,heat_input only,Ridge,3,1.3894954943731375
+4,heat_input only,Ridge,4,10.0
+4,heat_input only,Ridge,5,10.0
+4,heat_input only,Ridge,6,2.6826957952797246
+4,heat_input only,Ridge,7,51.794746792312125
+4,heat_input only,Ridge,8,13.89495494373136
+4,process params,Ridge,1,10.0
+4,process params,Ridge,2,13.89495494373136
+4,process params,Ridge,3,5.179474679231207
+4,process params,Ridge,4,26.82695795279722
+4,process params,Ridge,5,19.306977288832496
+4,process params,Ridge,6,0.7196856730011514
+4,process params,Ridge,7,13.89495494373136
+4,process params,Ridge,8,13.89495494373136
+4,notebook feats,Ridge,1,3.727593720314938
+4,notebook feats,Ridge,2,1.9306977288832496
+4,notebook feats,Ridge,3,1.3894954943731375
+4,notebook feats,Ridge,4,2.6826957952797246
+4,notebook feats,Ridge,5,7.196856730011514
+4,notebook feats,Ridge,6,3.727593720314938
+4,notebook feats,Ridge,7,3.727593720314938
+4,notebook feats,Ridge,8,3.727593720314938
+4,AE feats only,Ridge,1,0.3727593720314938
+4,AE feats only,Ridge,2,0.7196856730011514
+4,AE feats only,Ridge,3,1.0
+4,AE feats only,Ridge,4,0.3727593720314938
+4,AE feats only,Ridge,5,0.3727593720314938
+4,AE feats only,Ridge,6,1.0
+4,AE feats only,Ridge,7,1.0
+4,AE feats only,Ridge,8,0.3727593720314938
+4,all feats,Ridge,1,0.07196856730011518
+4,all feats,Ridge,2,0.2682695795279725
+4,all feats,Ridge,3,0.3727593720314938
+4,all feats,Ridge,4,0.2682695795279725
+4,all feats,Ridge,5,0.5179474679231207
+4,all feats,Ridge,6,1.0
+4,all feats,Ridge,7,5.179474679231207
+4,all feats,Ridge,8,0.2682695795279725
+6,heat_input only,Ridge,1,7.196856730011514
+6,heat_input only,Ridge,2,71.96856730011514
+6,heat_input only,Ridge,3,2.6826957952797246
+6,heat_input only,Ridge,4,100.0
+6,heat_input only,Ridge,5,10.0
+6,heat_input only,Ridge,6,5.179474679231207
+6,heat_input only,Ridge,7,10000.0
+6,heat_input only,Ridge,8,71.96856730011514
+6,process params,Ridge,1,13.89495494373136
+6,process params,Ridge,2,19.306977288832496
+6,process params,Ridge,3,7.196856730011514
+6,process params,Ridge,4,37.27593720314938
+6,process params,Ridge,5,19.306977288832496
+6,process params,Ridge,6,0.7196856730011514
+6,process params,Ridge,7,13.89495494373136
+6,process params,Ridge,8,19.306977288832496
+6,notebook feats,Ridge,1,2.6826957952797246
+6,notebook feats,Ridge,2,1.3894954943731375
+6,notebook feats,Ridge,3,0.19306977288832497
+6,notebook feats,Ridge,4,1.9306977288832496
+6,notebook feats,Ridge,5,3.727593720314938
+6,notebook feats,Ridge,6,1.9306977288832496
+6,notebook feats,Ridge,7,1.9306977288832496
+6,notebook feats,Ridge,8,2.6826957952797246
+6,AE feats only,Ridge,1,1.9306977288832496
+6,AE feats only,Ridge,2,0.3727593720314938
+6,AE feats only,Ridge,3,37.27593720314938
+6,AE feats only,Ridge,4,0.13894954943731375
+6,AE feats only,Ridge,5,1.3894954943731375
+6,AE feats only,Ridge,6,0.3727593720314938
+6,AE feats only,Ridge,7,0.5179474679231207
+6,AE feats only,Ridge,8,0.1
+6,all feats,Ridge,1,2.6826957952797246
+6,all feats,Ridge,2,0.3727593720314938
+6,all feats,Ridge,3,1.9306977288832496
+6,all feats,Ridge,4,0.13894954943731375
+6,all feats,Ridge,5,1.9306977288832496
+6,all feats,Ridge,6,0.3727593720314938
+6,all feats,Ridge,7,3.727593720314938
+6,all feats,Ridge,8,0.001
+8,heat_input only,Ridge,1,3.727593720314938
+8,heat_input only,Ridge,2,13.89495494373136
+8,heat_input only,Ridge,3,1.3894954943731375
+8,heat_input only,Ridge,4,7.196856730011514
+8,heat_input only,Ridge,5,10.0
+8,heat_input only,Ridge,6,1.9306977288832496
+8,heat_input only,Ridge,7,71.96856730011514
+8,heat_input only,Ridge,8,13.89495494373136
+8,process params,Ridge,1,13.89495494373136
+8,process params,Ridge,2,19.306977288832496
+8,process params,Ridge,3,7.196856730011514
+8,process params,Ridge,4,51.794746792312125
+8,process params,Ridge,5,26.82695795279722
+8,process params,Ridge,6,0.7196856730011514
+8,process params,Ridge,7,13.89495494373136
+8,process params,Ridge,8,19.306977288832496
+8,notebook feats,Ridge,1,1.9306977288832496
+8,notebook feats,Ridge,2,1.3894954943731375
+8,notebook feats,Ridge,3,0.001
+8,notebook feats,Ridge,4,1.9306977288832496
+8,notebook feats,Ridge,5,3.727593720314938
+8,notebook feats,Ridge,6,1.9306977288832496
+8,notebook feats,Ridge,7,1.9306977288832496
+8,notebook feats,Ridge,8,2.6826957952797246
+8,AE feats only,Ridge,1,3.727593720314938
+8,AE feats only,Ridge,2,3.727593720314938
+8,AE feats only,Ridge,3,1.3894954943731375
+8,AE feats only,Ridge,4,3.727593720314938
+8,AE feats only,Ridge,5,5.179474679231207
+8,AE feats only,Ridge,6,3.727593720314938
+8,AE feats only,Ridge,7,7.196856730011514
+8,AE feats only,Ridge,8,1.3894954943731375
+8,all feats,Ridge,1,3.727593720314938
+8,all feats,Ridge,2,5.179474679231207
+8,all feats,Ridge,3,0.5179474679231207
+8,all feats,Ridge,4,5.179474679231207
+8,all feats,Ridge,5,5.179474679231207
+8,all feats,Ridge,6,7.196856730011514
+8,all feats,Ridge,7,10.0
+8,all feats,Ridge,8,3.727593720314938
+100,heat_input only,Ridge,1,10000.0
+100,heat_input only,Ridge,2,10000.0
+100,heat_input only,Ridge,3,10000.0
+100,heat_input only,Ridge,4,10000.0
+100,heat_input only,Ridge,5,19.306977288832496
+100,heat_input only,Ridge,6,10000.0
+100,heat_input only,Ridge,7,10000.0
+100,heat_input only,Ridge,8,10000.0
+100,process params,Ridge,1,10000.0
+100,process params,Ridge,2,10000.0
+100,process params,Ridge,3,10000.0
+100,process params,Ridge,4,10000.0
+100,process params,Ridge,5,10000.0
+100,process params,Ridge,6,10000.0
+100,process params,Ridge,7,10000.0
+100,process params,Ridge,8,10000.0
+100,notebook feats,Ridge,1,10000.0
+100,notebook feats,Ridge,2,10000.0
+100,notebook feats,Ridge,3,10000.0
+100,notebook feats,Ridge,4,10000.0
+100,notebook feats,Ridge,5,26.82695795279722
+100,notebook feats,Ridge,6,1.0
+100,notebook feats,Ridge,7,10000.0
+100,notebook feats,Ridge,8,10000.0
+100,AE feats only,Ridge,1,719.6856730011514
+100,AE feats only,Ridge,2,517.9474679231203
+100,AE feats only,Ridge,3,719.6856730011514
+100,AE feats only,Ridge,4,719.6856730011514
+100,AE feats only,Ridge,5,13.89495494373136
+100,AE feats only,Ridge,6,10000.0
+100,AE feats only,Ridge,7,1930.6977288832495
+100,AE feats only,Ridge,8,517.9474679231203
+100,all feats,Ridge,1,1000.0
+100,all feats,Ridge,2,517.9474679231203
+100,all feats,Ridge,3,719.6856730011514
+100,all feats,Ridge,4,1930.6977288832495
+100,all feats,Ridge,5,51.794746792312125
+100,all feats,Ridge,6,10000.0
+100,all feats,Ridge,7,5179.474679231202
+100,all feats,Ridge,8,517.9474679231203
