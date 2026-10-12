@@ -1,7 +1,7 @@
 import pandas as pd
 import os
-PATH = "/Users/shaswatshrey/Development/MajorProject/SAMPLE 1 TO 8/SAMPLE 1"
-OUTPUT = "/Users/shaswatshrey/Development/MajorProject/peak.csv"
+PATH = "SAMPLE 1 TO 8/SAMPLE 1"
+OUTPUT = "peak.csv"
 
 result = []
 for root, dir, files in os.walk(PATH):

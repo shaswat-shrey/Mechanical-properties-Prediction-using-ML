@@ -23,12 +23,11 @@ for dirpath, _, filenames in os.walk(root_dir):
             print("SKIPPED:", dirpath, fname)
             continue
 
-        layer1 = layer_match.group(1)
-        layer2 = layer_match.group(2)
+        layer1 = int(layer_match.group(1))
+        layer2 = int(layer_match.group(2)) if layer_match.group(2) else layer1
 
-        layers = layer1
-        if layer2:
-            layers += "," + layer2
+        # "25_and_27" / "29_to_32" hold every layer in between
+        layers = ",".join(str(l) for l in range(layer1, layer2 + 1))
 
         rows.append({
             "filepath": os.path.join(dirpath, fname),
@@ -44,7 +43,7 @@ if not manifest.empty:
     manifest = manifest.sort_values(
         ["sample_id", "filepath"]
     )
-    manifest.to_csv("/Users/shaswatshrey/Development/MajorProject/manifest.csv", index=False)
+    manifest.to_csv("manifest.csv", index=False)
 
     print("Manifest created successfully!")
     print("Shape:", manifest.shape)
@@ -52,5 +51,5 @@ if not manifest.empty:
 else:
     print("No CSV files were found.")
 
-with open('/Users/shaswatshrey/Development/MajorProject/manifest.csv', 'rb') as f:
+with open('manifest.csv', 'rb') as f:
     print(f.readline())

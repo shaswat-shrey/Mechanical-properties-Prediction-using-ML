@@ -1,0 +1,90 @@
+lay_table: 293 layers, 8 samples
+
+=== block_size=2: 146 blocks {1: 19, 2: 20, 3: 16, 4: 16, 5: 17, 6: 16, 7: 21, 8: 21} ===
+=== block_size=3: 98 blocks {1: 13, 2: 13, 3: 11, 4: 11, 5: 11, 6: 11, 7: 14, 8: 14} ===
+=== block_size=4: 75 blocks {1: 10, 2: 10, 3: 8, 4: 8, 5: 9, 6: 8, 7: 11, 8: 11} ===
+=== block_size=6: 52 blocks {1: 7, 2: 7, 3: 6, 4: 6, 5: 6, 6: 6, 7: 7, 8: 7} ===
+=== block_size=8: 39 blocks {1: 5, 2: 5, 3: 4, 4: 4, 5: 5, 6: 4, 7: 6, 8: 6} ===
+=== block_size=100: 8 blocks {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1} ===
+
+All CV results (leave-one-sample-out, hardness in HV):
+ block_size  n_blocks        features  n_features        model  block_MAE  block_RMSE  sample_MAE  sample_RMSE  sample_R2  sample_max_err  sample_pearson_r
+          2       146               -           0         Mean      4.230       6.408       4.491        6.722     -0.273          15.288            -0.998
+          2       146 heat_input only           1        Ridge      5.494       7.904       5.875        8.258     -0.922          15.639            -0.793
+          2       146 heat_input only           1 RandomForest      6.479       7.875       6.825        8.191     -0.890          13.500            -0.077
+          2       146  process params           2        Ridge      6.912       8.968       7.302        9.370     -1.474          16.481            -0.577
+          2       146  process params           2 RandomForest      8.495       9.466       8.934        9.874     -1.747          14.857            -0.146
+          2       146  notebook feats           3        Ridge      5.533       7.562       5.473        7.730     -0.684          15.038            -0.680
+          2       146  notebook feats           3 RandomForest      6.633       7.925       6.970        8.231     -0.909          13.344            -0.091
+          2       146   AE feats only          34        Ridge      5.096       6.652       4.243        6.030     -0.025          14.029            -0.006
+          2       146   AE feats only          34 RandomForest      5.825       7.172       6.088        7.389     -0.538          14.999            -0.079
+          2       146       all feats          36        Ridge      6.549       7.836       5.752        7.154     -0.442          14.913            -0.429
+          2       146       all feats          36 RandomForest      8.126       8.759       8.426        9.006     -1.285          13.813            -0.327
+          3        98               -           0         Mean      4.250       6.444       4.494        6.729     -0.276          15.279            -0.998
+          3        98 heat_input only           1        Ridge      5.453       7.851       5.813        8.206     -0.898          15.627            -0.807
+          3        98 heat_input only           1 RandomForest      6.526       7.910       6.818        8.176     -0.884          13.429            -0.078
+          3        98  process params           2        Ridge      6.875       8.915       7.237        9.290     -1.432          16.419            -0.572
+          3        98  process params           2 RandomForest      8.510       9.461       8.883        9.802     -1.707          14.555            -0.145
+          3        98  notebook feats           3        Ridge      5.512       7.498       5.441        7.645     -0.647          14.849            -0.626
+          3        98  notebook feats           3 RandomForest      6.871       8.218       7.181        8.499     -1.035          13.272            -0.163
+          3        98   AE feats only          34        Ridge      4.994       6.496       3.951        5.824      0.044          13.346             0.233
+          3        98   AE feats only          34 RandomForest      5.749       7.145       5.989        7.335     -0.516          15.148            -0.111
+          3        98       all feats          36        Ridge      6.256       7.537       5.232        6.660     -0.250          14.196            -0.283
+          3        98       all feats          36 RandomForest      8.229       9.052       8.548        9.315     -1.445          14.117            -0.399
+          4        75               -           0         Mean      4.236       6.382       4.492        6.718     -0.271          15.324            -0.996
+          4        75 heat_input only           1        Ridge      5.492       7.836       5.851        8.180     -0.885          15.676            -0.797
+          4        75 heat_input only           1 RandomForest      6.468       7.824       6.829        8.164     -0.878          13.106            -0.101
+          4        75  process params           2        Ridge      6.724       8.784       7.108        9.207     -1.388          16.529            -0.581
+          4        75  process params           2 RandomForest      8.310       9.185       8.787        9.629     -1.613          13.726            -0.160
+          4        75  notebook feats           3        Ridge      5.548       7.498       5.452        7.617     -0.635          14.846            -0.602
+          4        75  notebook feats           3 RandomForest      7.319       8.922       7.657        9.252     -1.412          15.461            -0.313
+          4        75   AE feats only          34        Ridge      5.128       6.513       4.036        5.732      0.074          13.669             0.374
+          4        75   AE feats only          34 RandomForest      5.951       7.326       6.228        7.615     -0.634          15.388            -0.142
+          4        75       all feats          36        Ridge      6.471       7.687       5.675        6.773     -0.293          14.255            -0.199
+          4        75       all feats          36 RandomForest      8.174       9.100       8.487        9.358     -1.467          14.694            -0.404
+          6        52               -           0         Mean      4.333       6.544       4.504        6.751     -0.284          15.346            -0.998
+          6        52 heat_input only           1        Ridge      5.456       7.861       5.694        8.111     -0.854          15.660            -0.835
+          6        52 heat_input only           1 RandomForest      6.514       7.819       6.735        8.017     -0.811          13.139            -0.154
+          6        52  process params           2        Ridge      6.777       8.845       7.046        9.121     -1.344          16.342            -0.557
+          6        52  process params           2 RandomForest      8.281       9.089       8.539        9.323     -1.449          13.285            -0.197
+          6        52  notebook feats           3        Ridge      5.516       7.318       5.301        7.316     -0.508          14.263            -0.468
+          6        52  notebook feats           3 RandomForest      7.253       8.823       7.445        9.024     -1.294          15.607            -0.340
+          6        52   AE feats only          34        Ridge      5.361       6.894       3.946        6.238     -0.096          14.950            -0.197
+          6        52   AE feats only          34 RandomForest      6.400       8.004       6.574        8.126     -0.860          16.040            -0.155
+          6        52       all feats          36        Ridge      6.594       7.825       5.115        6.530     -0.201          13.791            -0.273
+          6        52       all feats          36 RandomForest      6.960       8.169       7.123        8.282     -0.933          14.453            -0.190
+          8        39               -           0         Mean      4.225       6.342       4.491        6.711     -0.269          15.343            -0.992
+          8        39 heat_input only           1        Ridge      5.469       7.720       5.825        8.051     -0.826          15.689            -0.795
+          8        39 heat_input only           1 RandomForest      6.108       7.557       6.410        7.813     -0.720          13.293            -0.300
+          8        39  process params           2        Ridge      6.368       8.451       6.786        8.921     -1.242          16.506            -0.556
+          8        39  process params           2 RandomForest      7.415       8.294       7.826        8.644     -1.105          13.401            -0.296
+          8        39  notebook feats           3        Ridge      5.429       7.244       5.359        7.293     -0.499          14.193            -0.447
+          8        39  notebook feats           3 RandomForest      6.306       7.870       6.525        8.077     -0.838          14.477            -0.349
+          8        39   AE feats only          34        Ridge      4.844       6.268       4.274        6.021     -0.021          13.826             0.025
+          8        39   AE feats only          34 RandomForest      5.849       7.166       6.046        7.350     -0.522          15.442            -0.144
+          8        39       all feats          36        Ridge      5.740       7.106       5.520        6.924     -0.351          14.464            -0.477
+          8        39       all feats          36 RandomForest      6.053       7.288       6.236        7.452     -0.565          14.608            -0.175
+        100         8               -           0         Mean      4.529       6.809       4.529        6.809     -0.306          15.443            -1.000
+        100         8 heat_input only           1        Ridge      4.731       7.104       4.731        7.104     -0.422          15.443            -0.927
+        100         8 heat_input only           1 RandomForest      4.691       6.919       4.691        6.919     -0.349          15.401            -0.981
+        100         8  process params           2        Ridge      4.530       6.810       4.530        6.810     -0.307          15.444            -1.000
+        100         8  process params           2 RandomForest      4.690       6.911       4.690        6.911     -0.346          15.401            -0.975
+        100         8  notebook feats           3        Ridge      5.336       7.485       5.336        7.485     -0.579          15.443            -0.624
+        100         8  notebook feats           3 RandomForest      4.731       6.894       4.731        6.894     -0.339          15.423            -0.958
+        100         8   AE feats only          34        Ridge      5.323       7.752       5.323        7.752     -0.693          15.383            -0.776
+        100         8   AE feats only          34 RandomForest      4.744       6.873       4.744        6.873     -0.331          15.305            -0.926
+        100         8       all feats          36        Ridge      4.985       7.236       4.985        7.236     -0.475          15.392            -0.869
+        100         8       all feats          36 RandomForest      4.786       6.918       4.786        6.918     -0.348          15.404            -0.937
+
+Best: Ridge | AE feats only | block_size=6 -> sample MAE 3.946, R2 -0.096 (mean predictor MAE 4.504)
+ sample_id  true   pred  error
+         1 310.2 306.13  -4.07
+         2 304.7 305.24   0.54
+         3 291.6 306.55  14.95
+         4 305.1 305.46   0.36
+         5 313.3 305.28  -8.02
+         6 307.2 307.25   0.05
+         7 303.2 305.19   1.99
+         8 305.6 307.18   1.58
+
+Raw results written to results/

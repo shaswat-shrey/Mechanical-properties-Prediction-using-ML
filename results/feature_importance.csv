@@ -1,0 +1,913 @@
+block_size,features,model,feature,value
+2,heat_input only,Ridge,heat_input,0.920536618441694
+2,heat_input only,RandomForest,heat_input,1.0
+2,process params,Ridge,heat_input,1.1612035902508908
+2,process params,Ridge,travel_speed,1.399641850507818
+2,process params,RandomForest,heat_input,0.8814976601034228
+2,process params,RandomForest,travel_speed,0.11850233989657723
+2,notebook feats,Ridge,heat_input,1.2294228509540464
+2,notebook feats,Ridge,ABS_ENERGY_blockstd,1.338930313433043
+2,notebook feats,Ridge,RISE_blockmean,-2.0302048603011738
+2,notebook feats,RandomForest,heat_input,0.9576829815103889
+2,notebook feats,RandomForest,ABS_ENERGY_blockstd,0.02375728080970449
+2,notebook feats,RandomForest,RISE_blockmean,0.018559737679906596
+2,AE feats only,Ridge,ABS_ENERGY_blockstd,0.6694640192972234
+2,AE feats only,Ridge,RISE_blockmean,1.885619545872233
+2,AE feats only,Ridge,n_hits,0.6174616147126779
+2,AE feats only,Ridge,duration_s,-1.2114792666769443
+2,AE feats only,Ridge,hit_rate,-1.3194559999453617
+2,AE feats only,Ridge,ABS_ENERGY_mean,-7.537766549559079
+2,AE feats only,Ridge,ABS_ENERGY_std,1.2786865960088427
+2,AE feats only,Ridge,ABS_ENERGY_median,7.338602962139676
+2,AE feats only,Ridge,RISE_std,-9.173905044609086
+2,AE feats only,Ridge,RISE_median,-5.482148176170124
+2,AE feats only,Ridge,COUNTS_mean,1.9200286286479553
+2,AE feats only,Ridge,COUNTS_std,-0.37588403969615314
+2,AE feats only,Ridge,COUNTS_median,-7.726286511207866
+2,AE feats only,Ridge,DURATION_mean,8.128852937971335
+2,AE feats only,Ridge,DURATION_std,-0.8095093002048603
+2,AE feats only,Ridge,DURATION_median,6.488296943535285
+2,AE feats only,Ridge,AMP_mean,-5.492843988413412
+2,AE feats only,Ridge,AMP_std,4.567633171583346
+2,AE feats only,Ridge,AMP_median,-1.5983203032993742
+2,AE feats only,Ridge,A_FRQ_mean,2.573496301078876
+2,AE feats only,Ridge,A_FRQ_std,0.7496890269681913
+2,AE feats only,Ridge,A_FRQ_median,0.2826891678864598
+2,AE feats only,Ridge,FRQ_C_mean,-5.233741113638029
+2,AE feats only,Ridge,FRQ_C_std,-2.378708426138683
+2,AE feats only,Ridge,FRQ_C_median,-0.970729313861856
+2,AE feats only,Ridge,P_FRQ_mean,6.740652074752488
+2,AE feats only,Ridge,P_FRQ_std,-2.5371305508939104
+2,AE feats only,Ridge,P_FRQ_median,-1.178984918992768
+2,AE feats only,Ridge,SIG_STRNGTH_mean,1.0417410321516243
+2,AE feats only,Ridge,SIG_STRNGTH_std,5.12826645031009
+2,AE feats only,Ridge,SIG_STRNGTH_median,-0.8423588560859248
+2,AE feats only,Ridge,logE_mean,-9.360860674351656
+2,AE feats only,Ridge,logE_std,-1.6020197673991685
+2,AE feats only,Ridge,logE_p95,2.0924236735619104
+2,AE feats only,RandomForest,ABS_ENERGY_blockstd,0.006044574671664826
+2,AE feats only,RandomForest,RISE_blockmean,0.001644824903398308
+2,AE feats only,RandomForest,n_hits,0.013784973832319402
+2,AE feats only,RandomForest,duration_s,0.47967450788631494
+2,AE feats only,RandomForest,hit_rate,0.007853216983327452
+2,AE feats only,RandomForest,ABS_ENERGY_mean,0.011473822567861145
+2,AE feats only,RandomForest,ABS_ENERGY_std,0.016938767685699886
+2,AE feats only,RandomForest,ABS_ENERGY_median,0.00031853858698244664
+2,AE feats only,RandomForest,RISE_std,0.0047648323223051245
+2,AE feats only,RandomForest,RISE_median,0.0006085766615959598
+2,AE feats only,RandomForest,COUNTS_mean,0.00029868954848329246
+2,AE feats only,RandomForest,COUNTS_std,0.0018820201523011841
+2,AE feats only,RandomForest,COUNTS_median,0.002126522496594032
+2,AE feats only,RandomForest,DURATION_mean,0.0003451723447893744
+2,AE feats only,RandomForest,DURATION_std,0.002581580640400728
+2,AE feats only,RandomForest,DURATION_median,0.0007804082597220352
+2,AE feats only,RandomForest,AMP_mean,0.0011191023712893774
+2,AE feats only,RandomForest,AMP_std,0.024394727316400428
+2,AE feats only,RandomForest,AMP_median,0.0003154950895480051
+2,AE feats only,RandomForest,A_FRQ_mean,0.0067669578589670465
+2,AE feats only,RandomForest,A_FRQ_std,0.01372932209082807
+2,AE feats only,RandomForest,A_FRQ_median,0.0028084702680878483
+2,AE feats only,RandomForest,FRQ_C_mean,0.006100742502529016
+2,AE feats only,RandomForest,FRQ_C_std,0.09751699363531818
+2,AE feats only,RandomForest,FRQ_C_median,0.005897521483591708
+2,AE feats only,RandomForest,P_FRQ_mean,0.006028891812813267
+2,AE feats only,RandomForest,P_FRQ_std,0.01711489628401693
+2,AE feats only,RandomForest,P_FRQ_median,0.001525787780780654
+2,AE feats only,RandomForest,SIG_STRNGTH_mean,0.0006204312286539152
+2,AE feats only,RandomForest,SIG_STRNGTH_std,0.11294836933734805
+2,AE feats only,RandomForest,SIG_STRNGTH_median,0.0004287156436622058
+2,AE feats only,RandomForest,logE_mean,0.0009559632807537079
+2,AE feats only,RandomForest,logE_std,0.004256272182259753
+2,AE feats only,RandomForest,logE_p95,0.14635031028939166
+2,all feats,Ridge,travel_speed,1.289343789761265
+2,all feats,Ridge,heat_input,1.5967287619093407
+2,all feats,Ridge,ABS_ENERGY_blockstd,0.28692809145036335
+2,all feats,Ridge,RISE_blockmean,3.178610434266261
+2,all feats,Ridge,n_hits,0.23937494338887433
+2,all feats,Ridge,duration_s,-0.7166308101976808
+2,all feats,Ridge,hit_rate,-1.0179423289184548
+2,all feats,Ridge,ABS_ENERGY_mean,-6.781757629536173
+2,all feats,Ridge,ABS_ENERGY_std,1.1749469401681658
+2,all feats,Ridge,ABS_ENERGY_median,6.238946568119879
+2,all feats,Ridge,RISE_std,-11.602504072046372
+2,all feats,Ridge,RISE_median,-6.494074653552133
+2,all feats,Ridge,COUNTS_mean,3.6145117771159505
+2,all feats,Ridge,COUNTS_std,-1.5661195361354885
+2,all feats,Ridge,COUNTS_median,-7.376620359543679
+2,all feats,Ridge,DURATION_mean,10.788813620077974
+2,all feats,Ridge,DURATION_std,0.8264708441065949
+2,all feats,Ridge,DURATION_median,5.32798228559912
+2,all feats,Ridge,AMP_mean,-7.157095013422634
+2,all feats,Ridge,AMP_std,2.7696774663697283
+2,all feats,Ridge,AMP_median,-1.8707506323270522
+2,all feats,Ridge,A_FRQ_mean,0.821965558511522
+2,all feats,Ridge,A_FRQ_std,1.2082016772868585
+2,all feats,Ridge,A_FRQ_median,2.2772428807915617
+2,all feats,Ridge,FRQ_C_mean,-3.0540429966447107
+2,all feats,Ridge,FRQ_C_std,-3.4822405442189854
+2,all feats,Ridge,FRQ_C_median,-1.7927399755103295
+2,all feats,Ridge,P_FRQ_mean,5.203519122726885
+2,all feats,Ridge,P_FRQ_std,-2.321414299166987
+2,all feats,Ridge,P_FRQ_median,-0.9662376854098884
+2,all feats,Ridge,SIG_STRNGTH_mean,2.0465062597340875
+2,all feats,Ridge,SIG_STRNGTH_std,5.855154364724811
+2,all feats,Ridge,SIG_STRNGTH_median,-0.4789749004414574
+2,all feats,Ridge,logE_mean,-11.795665704603344
+2,all feats,Ridge,logE_std,-0.7313342535985043
+2,all feats,Ridge,logE_p95,6.546125162210842
+2,all feats,RandomForest,travel_speed,0.005978670562370745
+2,all feats,RandomForest,heat_input,0.2718040883541159
+2,all feats,RandomForest,ABS_ENERGY_blockstd,0.004229625775212669
+2,all feats,RandomForest,RISE_blockmean,0.0012097928073357312
+2,all feats,RandomForest,n_hits,0.0011134769654059103
+2,all feats,RandomForest,duration_s,0.4331666132265857
+2,all feats,RandomForest,hit_rate,0.0008537091180467064
+2,all feats,RandomForest,ABS_ENERGY_mean,0.006285392514686095
+2,all feats,RandomForest,ABS_ENERGY_std,0.005072388449086915
+2,all feats,RandomForest,ABS_ENERGY_median,0.0003032291824135307
+2,all feats,RandomForest,RISE_std,0.0004569056135285752
+2,all feats,RandomForest,RISE_median,0.00037105462412407377
+2,all feats,RandomForest,COUNTS_mean,0.000266822554182749
+2,all feats,RandomForest,COUNTS_std,0.0002957122944269906
+2,all feats,RandomForest,COUNTS_median,0.001660289451212747
+2,all feats,RandomForest,DURATION_mean,0.00019967518225694282
+2,all feats,RandomForest,DURATION_std,0.0011733380660076515
+2,all feats,RandomForest,DURATION_median,0.00014989754138927495
+2,all feats,RandomForest,AMP_mean,0.0003396439105598981
+2,all feats,RandomForest,AMP_std,0.01528442923838706
+2,all feats,RandomForest,AMP_median,0.00026048329899977133
+2,all feats,RandomForest,A_FRQ_mean,0.002145629334425534
+2,all feats,RandomForest,A_FRQ_std,0.002291875543573756
+2,all feats,RandomForest,A_FRQ_median,0.001231149615203438
+2,all feats,RandomForest,FRQ_C_mean,0.0009811080630361766
+2,all feats,RandomForest,FRQ_C_std,0.003259705379711508
+2,all feats,RandomForest,FRQ_C_median,0.0015455462083970451
+2,all feats,RandomForest,P_FRQ_mean,0.0014267381589626353
+2,all feats,RandomForest,P_FRQ_std,0.016095391315253615
+2,all feats,RandomForest,P_FRQ_median,0.00018089034326464006
+2,all feats,RandomForest,SIG_STRNGTH_mean,0.00027501861733065163
+2,all feats,RandomForest,SIG_STRNGTH_std,0.09887937382474817
+2,all feats,RandomForest,SIG_STRNGTH_median,0.0005599942676472985
+2,all feats,RandomForest,logE_mean,0.0003142589462859711
+2,all feats,RandomForest,logE_std,0.0052822199136194235
+2,all feats,RandomForest,logE_p95,0.11505586173820456
+3,heat_input only,Ridge,heat_input,0.7456652576382625
+3,heat_input only,RandomForest,heat_input,1.0
+3,process params,Ridge,heat_input,0.9682049764073233
+3,process params,Ridge,travel_speed,1.2811059523541821
+3,process params,RandomForest,heat_input,0.8449559975291879
+3,process params,RandomForest,travel_speed,0.15504400247081224
+3,notebook feats,Ridge,heat_input,1.2301894466017058
+3,notebook feats,Ridge,ABS_ENERGY_blockstd,1.825353010132248
+3,notebook feats,Ridge,RISE_blockmean,-2.36523823401675
+3,notebook feats,RandomForest,heat_input,0.8894398669856803
+3,notebook feats,RandomForest,ABS_ENERGY_blockstd,0.07208126582916825
+3,notebook feats,RandomForest,RISE_blockmean,0.038478867185151325
+3,AE feats only,Ridge,ABS_ENERGY_blockstd,0.3863798457547323
+3,AE feats only,Ridge,RISE_blockmean,0.11798564581353688
+3,AE feats only,Ridge,n_hits,-0.05386699423023522
+3,AE feats only,Ridge,duration_s,-0.9543651535538471
+3,AE feats only,Ridge,hit_rate,-0.44307138145661895
+3,AE feats only,Ridge,ABS_ENERGY_mean,-7.459254261026635
+3,AE feats only,Ridge,ABS_ENERGY_std,1.142514099838288
+3,AE feats only,Ridge,ABS_ENERGY_median,7.472195091276234
+3,AE feats only,Ridge,RISE_std,-7.835239669570868
+3,AE feats only,Ridge,RISE_median,-6.367897679995757
+3,AE feats only,Ridge,COUNTS_mean,0.8968459629257004
+3,AE feats only,Ridge,COUNTS_std,0.7631786403316188
+3,AE feats only,Ridge,COUNTS_median,-7.282969548635879
+3,AE feats only,Ridge,DURATION_mean,6.2402069470527195
+3,AE feats only,Ridge,DURATION_std,-0.8898678943717275
+3,AE feats only,Ridge,DURATION_median,9.56311226876273
+3,AE feats only,Ridge,AMP_mean,-7.051284450407863
+3,AE feats only,Ridge,AMP_std,6.447769616944868
+3,AE feats only,Ridge,AMP_median,-2.2174883600085025
+3,AE feats only,Ridge,A_FRQ_mean,3.8208574871583068
+3,AE feats only,Ridge,A_FRQ_std,-0.0026518735753189304
+3,AE feats only,Ridge,A_FRQ_median,1.133849236086526
+3,AE feats only,Ridge,FRQ_C_mean,-7.8560105236576305
+3,AE feats only,Ridge,FRQ_C_std,-3.334811686836648
+3,AE feats only,Ridge,FRQ_C_median,2.4374465037062905
+3,AE feats only,Ridge,P_FRQ_mean,6.520444174561675
+3,AE feats only,Ridge,P_FRQ_std,-2.84119275632315
+3,AE feats only,Ridge,P_FRQ_median,-1.9563283016639534
+3,AE feats only,Ridge,SIG_STRNGTH_mean,3.1114125772090393
+3,AE feats only,Ridge,SIG_STRNGTH_std,5.389076127282829
+3,AE feats only,Ridge,SIG_STRNGTH_median,-0.060415687455975586
+3,AE feats only,Ridge,logE_mean,-10.801707085860386
+3,AE feats only,Ridge,logE_std,-2.338086244312077
+3,AE feats only,Ridge,logE_p95,0.1555735590158065
+3,AE feats only,RandomForest,ABS_ENERGY_blockstd,0.01484008467935315
+3,AE feats only,RandomForest,RISE_blockmean,0.0003533595586850075
+3,AE feats only,RandomForest,n_hits,0.031427057816460706
+3,AE feats only,RandomForest,duration_s,0.41518571465432813
+3,AE feats only,RandomForest,hit_rate,0.0070317060440542025
+3,AE feats only,RandomForest,ABS_ENERGY_mean,0.012557398116734876
+3,AE feats only,RandomForest,ABS_ENERGY_std,0.01698770529270019
+3,AE feats only,RandomForest,ABS_ENERGY_median,0.0009598769073175743
+3,AE feats only,RandomForest,RISE_std,0.004173534629935007
+3,AE feats only,RandomForest,RISE_median,0.0011434540570143944
+3,AE feats only,RandomForest,COUNTS_mean,0.008347446602050284
+3,AE feats only,RandomForest,COUNTS_std,0.004834823831051637
+3,AE feats only,RandomForest,COUNTS_median,0.005264145039845385
+3,AE feats only,RandomForest,DURATION_mean,0.000800716190906769
+3,AE feats only,RandomForest,DURATION_std,0.0014562590937171416
+3,AE feats only,RandomForest,DURATION_median,0.00015976580658079792
+3,AE feats only,RandomForest,AMP_mean,0.0024379538101235608
+3,AE feats only,RandomForest,AMP_std,0.028117768340819863
+3,AE feats only,RandomForest,AMP_median,0.00410188192943558
+3,AE feats only,RandomForest,A_FRQ_mean,0.011004790959592826
+3,AE feats only,RandomForest,A_FRQ_std,0.018713969901720355
+3,AE feats only,RandomForest,A_FRQ_median,0.011356949554171086
+3,AE feats only,RandomForest,FRQ_C_mean,0.004120102774254723
+3,AE feats only,RandomForest,FRQ_C_std,0.09406414509127346
+3,AE feats only,RandomForest,FRQ_C_median,0.007585235359012907
+3,AE feats only,RandomForest,P_FRQ_mean,0.0071671081183579686
+3,AE feats only,RandomForest,P_FRQ_std,0.04627270959426571
+3,AE feats only,RandomForest,P_FRQ_median,0.0011752481867760294
+3,AE feats only,RandomForest,SIG_STRNGTH_mean,0.0010671180620693767
+3,AE feats only,RandomForest,SIG_STRNGTH_std,0.17456590053547758
+3,AE feats only,RandomForest,SIG_STRNGTH_median,0.0005242032026662116
+3,AE feats only,RandomForest,logE_mean,0.0009386985073987586
+3,AE feats only,RandomForest,logE_std,0.009153540298207807
+3,AE feats only,RandomForest,logE_p95,0.05210962745364084
+3,all feats,Ridge,travel_speed,1.302967519480461
+3,all feats,Ridge,heat_input,2.0618638702231475
+3,all feats,Ridge,ABS_ENERGY_blockstd,-0.15015233432974995
+3,all feats,Ridge,RISE_blockmean,-0.09194072249357532
+3,all feats,Ridge,n_hits,0.037681512906019066
+3,all feats,Ridge,duration_s,-0.5982715863019079
+3,all feats,Ridge,hit_rate,-0.6352234448057992
+3,all feats,Ridge,ABS_ENERGY_mean,-5.184396418514915
+3,all feats,Ridge,ABS_ENERGY_std,0.8386744704449658
+3,all feats,Ridge,ABS_ENERGY_median,5.35016695030847
+3,all feats,Ridge,RISE_std,-8.324629345324524
+3,all feats,Ridge,RISE_median,-5.863056981818431
+3,all feats,Ridge,COUNTS_mean,1.7654396362514149
+3,all feats,Ridge,COUNTS_std,0.16782220636434886
+3,all feats,Ridge,COUNTS_median,-6.220144560619985
+3,all feats,Ridge,DURATION_mean,7.504524504577503
+3,all feats,Ridge,DURATION_std,0.12949793126303177
+3,all feats,Ridge,DURATION_median,8.760464698408867
+3,all feats,Ridge,AMP_mean,-8.673758775719364
+3,all feats,Ridge,AMP_std,4.018629878381887
+3,all feats,Ridge,AMP_median,-4.250695651442783
+3,all feats,Ridge,A_FRQ_mean,3.052953326161713
+3,all feats,Ridge,A_FRQ_std,0.36048782461126194
+3,all feats,Ridge,A_FRQ_median,1.9368189525599178
+3,all feats,Ridge,FRQ_C_mean,-4.866307278163042
+3,all feats,Ridge,FRQ_C_std,-4.584592061134366
+3,all feats,Ridge,FRQ_C_median,0.9405407380624098
+3,all feats,Ridge,P_FRQ_mean,4.7568881010653215
+3,all feats,Ridge,P_FRQ_std,-2.6216470515419017
+3,all feats,Ridge,P_FRQ_median,-1.8177085272424147
+3,all feats,Ridge,SIG_STRNGTH_mean,3.6329397567548654
+3,all feats,Ridge,SIG_STRNGTH_std,6.253216466238754
+3,all feats,Ridge,SIG_STRNGTH_median,0.973329919190931
+3,all feats,Ridge,logE_mean,-11.819780641260422
+3,all feats,Ridge,logE_std,-0.684405498356746
+3,all feats,Ridge,logE_p95,4.6234043291813975
+3,all feats,RandomForest,travel_speed,0.013765938412703262
+3,all feats,RandomForest,heat_input,0.234169793246788
+3,all feats,RandomForest,ABS_ENERGY_blockstd,0.010511051355771324
+3,all feats,RandomForest,RISE_blockmean,0.0009413639257101028
+3,all feats,RandomForest,n_hits,0.005938998910935701
+3,all feats,RandomForest,duration_s,0.3766945344870322
+3,all feats,RandomForest,hit_rate,0.00041054088524334367
+3,all feats,RandomForest,ABS_ENERGY_mean,0.008973509947712673
+3,all feats,RandomForest,ABS_ENERGY_std,0.012237102253533314
+3,all feats,RandomForest,ABS_ENERGY_median,0.0005614570821326876
+3,all feats,RandomForest,RISE_std,0.0014169703134317832
+3,all feats,RandomForest,RISE_median,0.0007336154805864049
+3,all feats,RandomForest,COUNTS_mean,0.00527914354165736
+3,all feats,RandomForest,COUNTS_std,0.002494324453242314
+3,all feats,RandomForest,COUNTS_median,0.0063549469380702
+3,all feats,RandomForest,DURATION_mean,0.000704959528802959
+3,all feats,RandomForest,DURATION_std,0.0019663102226403694
+3,all feats,RandomForest,DURATION_median,0.00010189180332890674
+3,all feats,RandomForest,AMP_mean,0.0004359084107755645
+3,all feats,RandomForest,AMP_std,0.023631783712099917
+3,all feats,RandomForest,AMP_median,0.0031456583267707823
+3,all feats,RandomForest,A_FRQ_mean,0.0103947091790921
+3,all feats,RandomForest,A_FRQ_std,0.004163196431024659
+3,all feats,RandomForest,A_FRQ_median,0.006403343352550555
+3,all feats,RandomForest,FRQ_C_mean,0.0014214168766125575
+3,all feats,RandomForest,FRQ_C_std,0.009590255714223157
+3,all feats,RandomForest,FRQ_C_median,0.005185863494473876
+3,all feats,RandomForest,P_FRQ_mean,0.0022948511472289006
+3,all feats,RandomForest,P_FRQ_std,0.040971657676755244
+3,all feats,RandomForest,P_FRQ_median,0.0002837930543957313
+3,all feats,RandomForest,SIG_STRNGTH_mean,0.00020661412682735822
+3,all feats,RandomForest,SIG_STRNGTH_std,0.15678812504056586
+3,all feats,RandomForest,SIG_STRNGTH_median,0.00012385822153395632
+3,all feats,RandomForest,logE_mean,0.0004318260876414136
+3,all feats,RandomForest,logE_std,0.0078067469961722825
+3,all feats,RandomForest,logE_p95,0.043463939361933136
+4,heat_input only,Ridge,heat_input,0.8794830933871697
+4,heat_input only,RandomForest,heat_input,1.0
+4,process params,Ridge,heat_input,1.0347011691611796
+4,process params,Ridge,travel_speed,1.1693741338828687
+4,process params,RandomForest,heat_input,0.8280202934935165
+4,process params,RandomForest,travel_speed,0.17197970650648362
+4,notebook feats,Ridge,heat_input,1.2936983791059957
+4,notebook feats,Ridge,ABS_ENERGY_blockstd,1.888790734630617
+4,notebook feats,Ridge,RISE_blockmean,-2.545948461181152
+4,notebook feats,RandomForest,heat_input,0.7766816291456886
+4,notebook feats,RandomForest,ABS_ENERGY_blockstd,0.1795194118245259
+4,notebook feats,RandomForest,RISE_blockmean,0.04379895902978542
+4,AE feats only,Ridge,ABS_ENERGY_blockstd,0.9867381418059147
+4,AE feats only,Ridge,RISE_blockmean,-0.7287669018828495
+4,AE feats only,Ridge,n_hits,0.17316860747209617
+4,AE feats only,Ridge,duration_s,-1.032012017454715
+4,AE feats only,Ridge,hit_rate,-0.7050858121424485
+4,AE feats only,Ridge,ABS_ENERGY_mean,-3.5201413194686566
+4,AE feats only,Ridge,ABS_ENERGY_std,-0.13170579577204866
+4,AE feats only,Ridge,ABS_ENERGY_median,3.781130809081416
+4,AE feats only,Ridge,RISE_std,-3.6197342985331744
+4,AE feats only,Ridge,RISE_median,-3.262520252621478
+4,AE feats only,Ridge,COUNTS_mean,-0.796209287852232
+4,AE feats only,Ridge,COUNTS_std,-0.33717641300491685
+4,AE feats only,Ridge,COUNTS_median,-2.826385455575277
+4,AE feats only,Ridge,DURATION_mean,2.424982590538443
+4,AE feats only,Ridge,DURATION_std,-1.4089623273965923
+4,AE feats only,Ridge,DURATION_median,5.373914754805197
+4,AE feats only,Ridge,AMP_mean,-3.602088532319261
+4,AE feats only,Ridge,AMP_std,4.091146887687501
+4,AE feats only,Ridge,AMP_median,-4.29797826529601
+4,AE feats only,Ridge,A_FRQ_mean,2.104225553641168
+4,AE feats only,Ridge,A_FRQ_std,1.7855981977513602
+4,AE feats only,Ridge,A_FRQ_median,-0.8466566664938278
+4,AE feats only,Ridge,FRQ_C_mean,-4.14106036793417
+4,AE feats only,Ridge,FRQ_C_std,-2.242163565163427
+4,AE feats only,Ridge,FRQ_C_median,-1.7879264255905767
+4,AE feats only,Ridge,P_FRQ_mean,6.721176137496503
+4,AE feats only,Ridge,P_FRQ_std,-2.7022395888001163
+4,AE feats only,Ridge,P_FRQ_median,-1.285788798105008
+4,AE feats only,Ridge,SIG_STRNGTH_mean,0.5070554843744661
+4,AE feats only,Ridge,SIG_STRNGTH_std,4.5283177367708785
+4,AE feats only,Ridge,SIG_STRNGTH_median,0.47666791629544747
+4,AE feats only,Ridge,logE_mean,-4.721524039459467
+4,AE feats only,Ridge,logE_std,-1.3461981436388193
+4,AE feats only,Ridge,logE_p95,0.7907697810669845
+4,AE feats only,RandomForest,ABS_ENERGY_blockstd,0.06227353336231765
+4,AE feats only,RandomForest,RISE_blockmean,0.004479890128851846
+4,AE feats only,RandomForest,n_hits,0.014238925540426115
+4,AE feats only,RandomForest,duration_s,0.369721248134886
+4,AE feats only,RandomForest,hit_rate,0.006199541610813267
+4,AE feats only,RandomForest,ABS_ENERGY_mean,0.020215008700829675
+4,AE feats only,RandomForest,ABS_ENERGY_std,0.01582697629608517
+4,AE feats only,RandomForest,ABS_ENERGY_median,0.0025160583037379357
+4,AE feats only,RandomForest,RISE_std,0.004022764788108881
+4,AE feats only,RandomForest,RISE_median,0.0022496548070781723
+4,AE feats only,RandomForest,COUNTS_mean,0.009533756059430567
+4,AE feats only,RandomForest,COUNTS_std,0.004196862603458404
+4,AE feats only,RandomForest,COUNTS_median,0.005576314159459625
+4,AE feats only,RandomForest,DURATION_mean,0.0010051741355511714
+4,AE feats only,RandomForest,DURATION_std,0.006919779374489024
+4,AE feats only,RandomForest,DURATION_median,0.0003945214432507379
+4,AE feats only,RandomForest,AMP_mean,0.004938534035586667
+4,AE feats only,RandomForest,AMP_std,0.03963223789061217
+4,AE feats only,RandomForest,AMP_median,0.002626424922028635
+4,AE feats only,RandomForest,A_FRQ_mean,0.023111755623584425
+4,AE feats only,RandomForest,A_FRQ_std,0.02851323481612988
+4,AE feats only,RandomForest,A_FRQ_median,0.008775539377486504
+4,AE feats only,RandomForest,FRQ_C_mean,0.00381991955287631
+4,AE feats only,RandomForest,FRQ_C_std,0.18364514011478364
+4,AE feats only,RandomForest,FRQ_C_median,0.01145177014612604
+4,AE feats only,RandomForest,P_FRQ_mean,0.008162444241682543
+4,AE feats only,RandomForest,P_FRQ_std,0.05957505566697405
+4,AE feats only,RandomForest,P_FRQ_median,0.004559201688300792
+4,AE feats only,RandomForest,SIG_STRNGTH_mean,0.0006745998594577305
+4,AE feats only,RandomForest,SIG_STRNGTH_std,0.05424297483225321
+4,AE feats only,RandomForest,SIG_STRNGTH_median,0.0009635795481990987
+4,AE feats only,RandomForest,logE_mean,0.0013340240746106146
+4,AE feats only,RandomForest,logE_std,0.0022887663442349554
+4,AE feats only,RandomForest,logE_p95,0.032314787816298554
+4,all feats,Ridge,travel_speed,1.1296981201256786
+4,all feats,Ridge,heat_input,1.8884548536739816
+4,all feats,Ridge,ABS_ENERGY_blockstd,0.35321999586478814
+4,all feats,Ridge,RISE_blockmean,-0.6044865939468878
+4,all feats,Ridge,n_hits,-0.00925981341361215
+4,all feats,Ridge,duration_s,-0.6579285228974872
+4,all feats,Ridge,hit_rate,-0.5055854298971845
+4,all feats,Ridge,ABS_ENERGY_mean,-2.5174648621036013
+4,all feats,Ridge,ABS_ENERGY_std,-0.10583028158592178
+4,all feats,Ridge,ABS_ENERGY_median,2.894516215958326
+4,all feats,Ridge,RISE_std,-3.485319468850463
+4,all feats,Ridge,RISE_median,-3.3584233753864616
+4,all feats,Ridge,COUNTS_mean,-0.38103125910089375
+4,all feats,Ridge,COUNTS_std,-0.32750026157363266
+4,all feats,Ridge,COUNTS_median,-2.083856066930011
+4,all feats,Ridge,DURATION_mean,2.454240329238729
+4,all feats,Ridge,DURATION_std,-0.3902839126899007
+4,all feats,Ridge,DURATION_median,5.225926634397339
+4,all feats,Ridge,AMP_mean,-4.224009374474775
+4,all feats,Ridge,AMP_std,2.357767537522763
+4,all feats,Ridge,AMP_median,-5.068484091565445
+4,all feats,Ridge,A_FRQ_mean,1.8961901475392935
+4,all feats,Ridge,A_FRQ_std,2.1693157101789105
+4,all feats,Ridge,A_FRQ_median,-0.18793595709357902
+4,all feats,Ridge,FRQ_C_mean,-2.7282526174145403
+4,all feats,Ridge,FRQ_C_std,-3.773964072563789
+4,all feats,Ridge,FRQ_C_median,-1.518872380976056
+4,all feats,Ridge,P_FRQ_mean,5.24135870067789
+4,all feats,Ridge,P_FRQ_std,-2.5890022601195133
+4,all feats,Ridge,P_FRQ_median,-1.6471683148153815
+4,all feats,Ridge,SIG_STRNGTH_mean,1.4111486312462969
+4,all feats,Ridge,SIG_STRNGTH_std,5.575098953287224
+4,all feats,Ridge,SIG_STRNGTH_median,1.0093892939047535
+4,all feats,Ridge,logE_mean,-5.03148867242961
+4,all feats,Ridge,logE_std,0.2706901215373527
+4,all feats,Ridge,logE_p95,2.5177320693660903
+4,all feats,RandomForest,travel_speed,0.01637556841958807
+4,all feats,RandomForest,heat_input,0.22942982597701067
+4,all feats,RandomForest,ABS_ENERGY_blockstd,0.057399084540427095
+4,all feats,RandomForest,RISE_blockmean,0.0034929584754951662
+4,all feats,RandomForest,n_hits,0.004206205027565464
+4,all feats,RandomForest,duration_s,0.3500651502338996
+4,all feats,RandomForest,hit_rate,0.004183225707548244
+4,all feats,RandomForest,ABS_ENERGY_mean,0.017778567853153366
+4,all feats,RandomForest,ABS_ENERGY_std,0.018812868808289702
+4,all feats,RandomForest,ABS_ENERGY_median,0.0024919655152788192
+4,all feats,RandomForest,RISE_std,0.0017269697795539098
+4,all feats,RandomForest,RISE_median,0.0021440541412140767
+4,all feats,RandomForest,COUNTS_mean,0.007819796488040275
+4,all feats,RandomForest,COUNTS_std,0.0004715491168528366
+4,all feats,RandomForest,COUNTS_median,0.008118754594622796
+4,all feats,RandomForest,DURATION_mean,0.0008481823585248427
+4,all feats,RandomForest,DURATION_std,0.006785492916976878
+4,all feats,RandomForest,DURATION_median,0.00032622826149804736
+4,all feats,RandomForest,AMP_mean,0.0028956184918637997
+4,all feats,RandomForest,AMP_std,0.029182280344471637
+4,all feats,RandomForest,AMP_median,0.0013588504527929444
+4,all feats,RandomForest,A_FRQ_mean,0.02164620137156533
+4,all feats,RandomForest,A_FRQ_std,0.007425157349915108
+4,all feats,RandomForest,A_FRQ_median,0.00267440652386729
+4,all feats,RandomForest,FRQ_C_mean,0.0010561648663209293
+4,all feats,RandomForest,FRQ_C_std,0.05451853282856079
+4,all feats,RandomForest,FRQ_C_median,0.007126848620828166
+4,all feats,RandomForest,P_FRQ_mean,0.0023285225693896305
+4,all feats,RandomForest,P_FRQ_std,0.049324111940547165
+4,all feats,RandomForest,P_FRQ_median,0.003780985996872824
+4,all feats,RandomForest,SIG_STRNGTH_mean,0.00033489709857920856
+4,all feats,RandomForest,SIG_STRNGTH_std,0.057924798059944445
+4,all feats,RandomForest,SIG_STRNGTH_median,0.0004949006970196037
+4,all feats,RandomForest,logE_mean,0.0010218096565097802
+4,all feats,RandomForest,logE_std,0.003340822332726272
+4,all feats,RandomForest,logE_p95,0.02108864258268534
+6,heat_input only,Ridge,heat_input,0.32686008889416357
+6,heat_input only,RandomForest,heat_input,1.0
+6,process params,Ridge,heat_input,0.8243170885525882
+6,process params,Ridge,travel_speed,1.1495352140045725
+6,process params,RandomForest,heat_input,0.7694815275911527
+6,process params,RandomForest,travel_speed,0.23051847240884726
+6,notebook feats,Ridge,heat_input,1.5536696046913538
+6,notebook feats,Ridge,ABS_ENERGY_blockstd,2.945412328316494
+6,notebook feats,Ridge,RISE_blockmean,-3.346580820530191
+6,notebook feats,RandomForest,heat_input,0.7172859646174445
+6,notebook feats,RandomForest,ABS_ENERGY_blockstd,0.18106000757200638
+6,notebook feats,RandomForest,RISE_blockmean,0.10165402781054904
+6,AE feats only,Ridge,ABS_ENERGY_blockstd,1.7617957459206774
+6,AE feats only,Ridge,RISE_blockmean,-0.09152385229664972
+6,AE feats only,Ridge,n_hits,-0.49424510735566507
+6,AE feats only,Ridge,duration_s,-0.19400100820064825
+6,AE feats only,Ridge,hit_rate,-0.1741757267920505
+6,AE feats only,Ridge,ABS_ENERGY_mean,-2.0169658024518213
+6,AE feats only,Ridge,ABS_ENERGY_std,-1.061404004299003
+6,AE feats only,Ridge,ABS_ENERGY_median,1.9581209381684737
+6,AE feats only,Ridge,RISE_std,-4.66823464255468
+6,AE feats only,Ridge,RISE_median,-1.8458293833716835
+6,AE feats only,Ridge,COUNTS_mean,-0.8570921643520908
+6,AE feats only,Ridge,COUNTS_std,1.0625070060331794
+6,AE feats only,Ridge,COUNTS_median,-6.635809873348876
+6,AE feats only,Ridge,DURATION_mean,4.086456191548977
+6,AE feats only,Ridge,DURATION_std,-0.7964068524498309
+6,AE feats only,Ridge,DURATION_median,8.727981701374219
+6,AE feats only,Ridge,AMP_mean,-3.5089565968845378
+6,AE feats only,Ridge,AMP_std,4.4234660995919945
+6,AE feats only,Ridge,AMP_median,-5.334748365153754
+6,AE feats only,Ridge,A_FRQ_mean,4.025381049480387
+6,AE feats only,Ridge,A_FRQ_std,1.3871830405774137
+6,AE feats only,Ridge,A_FRQ_median,-0.8528539880223827
+6,AE feats only,Ridge,FRQ_C_mean,-3.3388919310461422
+6,AE feats only,Ridge,FRQ_C_std,-1.6808345479935376
+6,AE feats only,Ridge,FRQ_C_median,-1.8420719430200556
+6,AE feats only,Ridge,P_FRQ_mean,8.955096542074134
+6,AE feats only,Ridge,P_FRQ_std,-4.163648071622342
+6,AE feats only,Ridge,P_FRQ_median,-2.766272981966136
+6,AE feats only,Ridge,SIG_STRNGTH_mean,4.014883088170954
+6,AE feats only,Ridge,SIG_STRNGTH_std,3.5032550497514467
+6,AE feats only,Ridge,SIG_STRNGTH_median,-0.09402705887612939
+6,AE feats only,Ridge,logE_mean,-5.913923098848983
+6,AE feats only,Ridge,logE_std,-1.5521413689137766
+6,AE feats only,Ridge,logE_p95,-4.105755279773405
+6,AE feats only,RandomForest,ABS_ENERGY_blockstd,0.026664799276754574
+6,AE feats only,RandomForest,RISE_blockmean,0.009504443160402443
+6,AE feats only,RandomForest,n_hits,0.016405431634866314
+6,AE feats only,RandomForest,duration_s,0.46546173103780125
+6,AE feats only,RandomForest,hit_rate,0.018602372263395072
+6,AE feats only,RandomForest,ABS_ENERGY_mean,0.007564885845999631
+6,AE feats only,RandomForest,ABS_ENERGY_std,0.015620155673207316
+6,AE feats only,RandomForest,ABS_ENERGY_median,0.0024772171108588155
+6,AE feats only,RandomForest,RISE_std,0.0010530666241898453
+6,AE feats only,RandomForest,RISE_median,0.0006605979325180801
+6,AE feats only,RandomForest,COUNTS_mean,0.0028327565243153386
+6,AE feats only,RandomForest,COUNTS_std,0.008661236054258227
+6,AE feats only,RandomForest,COUNTS_median,0.007857643638842154
+6,AE feats only,RandomForest,DURATION_mean,0.00106813397657571
+6,AE feats only,RandomForest,DURATION_std,0.002267989214653444
+6,AE feats only,RandomForest,DURATION_median,0.001968234634494838
+6,AE feats only,RandomForest,AMP_mean,0.005309072757250481
+6,AE feats only,RandomForest,AMP_std,0.025319511822230807
+6,AE feats only,RandomForest,AMP_median,0.004957622428545349
+6,AE feats only,RandomForest,A_FRQ_mean,0.010765684028031443
+6,AE feats only,RandomForest,A_FRQ_std,0.04244341172558846
+6,AE feats only,RandomForest,A_FRQ_median,0.008119877350811407
+6,AE feats only,RandomForest,FRQ_C_mean,0.0032010860417658426
+6,AE feats only,RandomForest,FRQ_C_std,0.10688822766776945
+6,AE feats only,RandomForest,FRQ_C_median,0.004449893442218402
+6,AE feats only,RandomForest,P_FRQ_mean,0.019973945703636302
+6,AE feats only,RandomForest,P_FRQ_std,0.09540390828093517
+6,AE feats only,RandomForest,P_FRQ_median,0.005743192114886718
+6,AE feats only,RandomForest,SIG_STRNGTH_mean,0.0014992412452282523
+6,AE feats only,RandomForest,SIG_STRNGTH_std,0.04008143784497934
+6,AE feats only,RandomForest,SIG_STRNGTH_median,0.0006080837274932029
+6,AE feats only,RandomForest,logE_mean,0.0011717971575138783
+6,AE feats only,RandomForest,logE_std,0.00481096791235258
+6,AE feats only,RandomForest,logE_p95,0.03058234414562982
+6,all feats,Ridge,travel_speed,1.3762250241618919
+6,all feats,Ridge,heat_input,2.258608231264252
+6,all feats,Ridge,ABS_ENERGY_blockstd,1.1292126606181512
+6,all feats,Ridge,RISE_blockmean,-0.3944845418118348
+6,all feats,Ridge,n_hits,-0.4308914941661399
+6,all feats,Ridge,duration_s,0.09993373188784815
+6,all feats,Ridge,hit_rate,0.025416018193283207
+6,all feats,Ridge,ABS_ENERGY_mean,-0.6958310426790888
+6,all feats,Ridge,ABS_ENERGY_std,-1.153219031282461
+6,all feats,Ridge,ABS_ENERGY_median,1.3900533493919163
+6,all feats,Ridge,RISE_std,-4.610438411812396
+6,all feats,Ridge,RISE_median,-0.04907341681475508
+6,all feats,Ridge,COUNTS_mean,0.1752116585854111
+6,all feats,Ridge,COUNTS_std,0.7072567495407753
+6,all feats,Ridge,COUNTS_median,-3.732920064163011
+6,all feats,Ridge,DURATION_mean,2.371981169426846
+6,all feats,Ridge,DURATION_std,1.397988547101889
+6,all feats,Ridge,DURATION_median,6.775381690940819
+6,all feats,Ridge,AMP_mean,-4.265802459320042
+6,all feats,Ridge,AMP_std,2.2743682301204515
+6,all feats,Ridge,AMP_median,-5.795073829497582
+6,all feats,Ridge,A_FRQ_mean,3.1623922743118626
+6,all feats,Ridge,A_FRQ_std,1.8974182699142972
+6,all feats,Ridge,A_FRQ_median,-0.01501423221850473
+6,all feats,Ridge,FRQ_C_mean,-1.3455853249727667
+6,all feats,Ridge,FRQ_C_std,-3.485198786079234
+6,all feats,Ridge,FRQ_C_median,-1.0937870181367657
+6,all feats,Ridge,P_FRQ_mean,6.665586172570611
+6,all feats,Ridge,P_FRQ_std,-4.246698405101855
+6,all feats,Ridge,P_FRQ_median,-3.3047912593098268
+6,all feats,Ridge,SIG_STRNGTH_mean,4.033041239792066
+6,all feats,Ridge,SIG_STRNGTH_std,4.684804336236915
+6,all feats,Ridge,SIG_STRNGTH_median,0.6422137184305825
+6,all feats,Ridge,logE_mean,-4.794097688131885
+6,all feats,Ridge,logE_std,0.7474267331216637
+6,all feats,Ridge,logE_p95,-1.7616015584533073
+6,all feats,RandomForest,travel_speed,0.016242029934368553
+6,all feats,RandomForest,heat_input,0.18027454674875046
+6,all feats,RandomForest,ABS_ENERGY_blockstd,0.02134802281649633
+6,all feats,RandomForest,RISE_blockmean,0.005151173269989387
+6,all feats,RandomForest,n_hits,0.013641628618496807
+6,all feats,RandomForest,duration_s,0.4424537896310398
+6,all feats,RandomForest,hit_rate,0.008344146149543487
+6,all feats,RandomForest,ABS_ENERGY_mean,0.00214724780711775
+6,all feats,RandomForest,ABS_ENERGY_std,0.015876145296930676
+6,all feats,RandomForest,ABS_ENERGY_median,0.0008824010718238055
+6,all feats,RandomForest,RISE_std,0.0017658296373469502
+6,all feats,RandomForest,RISE_median,0.0036053646529070776
+6,all feats,RandomForest,COUNTS_mean,0.0017032152130613616
+6,all feats,RandomForest,COUNTS_std,0.006006546919168916
+6,all feats,RandomForest,COUNTS_median,0.004491301206746113
+6,all feats,RandomForest,DURATION_mean,0.00027895844849081235
+6,all feats,RandomForest,DURATION_std,0.0018404032355590063
+6,all feats,RandomForest,DURATION_median,0.0015357374034259982
+6,all feats,RandomForest,AMP_mean,0.006328404950370628
+6,all feats,RandomForest,AMP_std,0.013176895625033862
+6,all feats,RandomForest,AMP_median,0.0023045088304381196
+6,all feats,RandomForest,A_FRQ_mean,0.011555161748591095
+6,all feats,RandomForest,A_FRQ_std,0.020175896539042764
+6,all feats,RandomForest,A_FRQ_median,0.007341729767051466
+6,all feats,RandomForest,FRQ_C_mean,0.0029138621003187426
+6,all feats,RandomForest,FRQ_C_std,0.037214477413792794
+6,all feats,RandomForest,FRQ_C_median,0.003149785898069562
+6,all feats,RandomForest,P_FRQ_mean,0.00532541237647718
+6,all feats,RandomForest,P_FRQ_std,0.08840356149178898
+6,all feats,RandomForest,P_FRQ_median,0.006997435436056972
+6,all feats,RandomForest,SIG_STRNGTH_mean,0.00313438524240132
+6,all feats,RandomForest,SIG_STRNGTH_std,0.03417218280264406
+6,all feats,RandomForest,SIG_STRNGTH_median,0.0022290950550747446
+6,all feats,RandomForest,logE_mean,0.000316817391418262
+6,all feats,RandomForest,logE_std,0.004007670824948262
+6,all feats,RandomForest,logE_p95,0.023664228445217966
+8,heat_input only,Ridge,heat_input,0.8549330608568582
+8,heat_input only,RandomForest,heat_input,1.0
+8,process params,Ridge,heat_input,0.962188937539619
+8,process params,Ridge,travel_speed,0.9248794234403939
+8,process params,RandomForest,heat_input,0.7096401296097404
+8,process params,RandomForest,travel_speed,0.2903598703902597
+8,notebook feats,Ridge,heat_input,1.5441906583843015
+8,notebook feats,Ridge,ABS_ENERGY_blockstd,2.633221904038088
+8,notebook feats,Ridge,RISE_blockmean,-3.1951789035076437
+8,notebook feats,RandomForest,heat_input,0.6552775521784284
+8,notebook feats,RandomForest,ABS_ENERGY_blockstd,0.1763186137646708
+8,notebook feats,RandomForest,RISE_blockmean,0.16840383405690082
+8,AE feats only,Ridge,ABS_ENERGY_blockstd,2.0722115528899123
+8,AE feats only,Ridge,RISE_blockmean,-0.2217507800411792
+8,AE feats only,Ridge,n_hits,-0.22380708996773116
+8,AE feats only,Ridge,duration_s,-1.4250766018199292
+8,AE feats only,Ridge,hit_rate,-0.05684862991212736
+8,AE feats only,Ridge,ABS_ENERGY_mean,-0.1806685815418717
+8,AE feats only,Ridge,ABS_ENERGY_std,-0.8695128054597652
+8,AE feats only,Ridge,ABS_ENERGY_median,0.6209275828010321
+8,AE feats only,Ridge,RISE_std,-0.5529183231245964
+8,AE feats only,Ridge,RISE_median,-0.48136162968763707
+8,AE feats only,Ridge,COUNTS_mean,-0.4927633640106178
+8,AE feats only,Ridge,COUNTS_std,-0.2522212022050345
+8,AE feats only,Ridge,COUNTS_median,-0.538417186199177
+8,AE feats only,Ridge,DURATION_mean,0.16029054061281733
+8,AE feats only,Ridge,DURATION_std,-0.29573053891153767
+8,AE feats only,Ridge,DURATION_median,0.6017949054698176
+8,AE feats only,Ridge,AMP_mean,-0.6526425023971387
+8,AE feats only,Ridge,AMP_std,1.822152290477093
+8,AE feats only,Ridge,AMP_median,-0.8800775616583922
+8,AE feats only,Ridge,A_FRQ_mean,-0.10526079809390998
+8,AE feats only,Ridge,A_FRQ_std,1.698040773897758
+8,AE feats only,Ridge,A_FRQ_median,-0.6123865577304686
+8,AE feats only,Ridge,FRQ_C_mean,-1.20723688622716
+8,AE feats only,Ridge,FRQ_C_std,-0.7162016925410377
+8,AE feats only,Ridge,FRQ_C_median,-1.2596968175689627
+8,AE feats only,Ridge,P_FRQ_mean,2.591177760944739
+8,AE feats only,Ridge,P_FRQ_std,-2.810485386260863
+8,AE feats only,Ridge,P_FRQ_median,1.002510443310697
+8,AE feats only,Ridge,SIG_STRNGTH_mean,-0.11304980983547785
+8,AE feats only,Ridge,SIG_STRNGTH_std,0.8399922342841213
+8,AE feats only,Ridge,SIG_STRNGTH_median,-0.050606208368816574
+8,AE feats only,Ridge,logE_mean,-0.9470008805045027
+8,AE feats only,Ridge,logE_std,-0.028546341389998453
+8,AE feats only,Ridge,logE_p95,-0.24208369350139236
+8,AE feats only,RandomForest,ABS_ENERGY_blockstd,0.007596200504562627
+8,AE feats only,RandomForest,RISE_blockmean,0.0020535047594615555
+8,AE feats only,RandomForest,n_hits,0.056062805930953044
+8,AE feats only,RandomForest,duration_s,0.37807176131971987
+8,AE feats only,RandomForest,hit_rate,0.04345988500429014
+8,AE feats only,RandomForest,ABS_ENERGY_mean,0.00366567534195468
+8,AE feats only,RandomForest,ABS_ENERGY_std,0.007420142863594755
+8,AE feats only,RandomForest,ABS_ENERGY_median,0.001820349013691285
+8,AE feats only,RandomForest,RISE_std,0.005178976074319635
+8,AE feats only,RandomForest,RISE_median,0.0053478768628438715
+8,AE feats only,RandomForest,COUNTS_mean,0.013306946860431466
+8,AE feats only,RandomForest,COUNTS_std,0.0049626163031292565
+8,AE feats only,RandomForest,COUNTS_median,0.00705473709023555
+8,AE feats only,RandomForest,DURATION_mean,0.002764099813540811
+8,AE feats only,RandomForest,DURATION_std,0.006569595027683032
+8,AE feats only,RandomForest,DURATION_median,0.0005782529390226067
+8,AE feats only,RandomForest,AMP_mean,0.0017595374544061115
+8,AE feats only,RandomForest,AMP_std,0.01934279451495299
+8,AE feats only,RandomForest,AMP_median,0.0015777312900167506
+8,AE feats only,RandomForest,A_FRQ_mean,0.028186562441789586
+8,AE feats only,RandomForest,A_FRQ_std,0.0646005099882422
+8,AE feats only,RandomForest,A_FRQ_median,0.007388925215700819
+8,AE feats only,RandomForest,FRQ_C_mean,0.0025165257668237377
+8,AE feats only,RandomForest,FRQ_C_std,0.09239760221446909
+8,AE feats only,RandomForest,FRQ_C_median,0.0010780658258611549
+8,AE feats only,RandomForest,P_FRQ_mean,0.012942972164147911
+8,AE feats only,RandomForest,P_FRQ_std,0.1727742455083019
+8,AE feats only,RandomForest,P_FRQ_median,0.008257415515224253
+8,AE feats only,RandomForest,SIG_STRNGTH_mean,0.0013058845851081785
+8,AE feats only,RandomForest,SIG_STRNGTH_std,0.01759161702442239
+8,AE feats only,RandomForest,SIG_STRNGTH_median,0.00011056370271799884
+8,AE feats only,RandomForest,logE_mean,0.0006070437021042811
+8,AE feats only,RandomForest,logE_std,0.010280097456212459
+8,AE feats only,RandomForest,logE_p95,0.011368479920064031
+8,all feats,Ridge,travel_speed,0.7778902464449016
+8,all feats,Ridge,heat_input,1.3820931139327297
+8,all feats,Ridge,ABS_ENERGY_blockstd,1.4825893680118305
+8,all feats,Ridge,RISE_blockmean,-0.14303173943828718
+8,all feats,Ridge,n_hits,0.00623617784909869
+8,all feats,Ridge,duration_s,-1.0992631198108906
+8,all feats,Ridge,hit_rate,0.07204112839409937
+8,all feats,Ridge,ABS_ENERGY_mean,0.14293485965384678
+8,all feats,Ridge,ABS_ENERGY_std,-0.4052548782958564
+8,all feats,Ridge,ABS_ENERGY_median,0.5933579597478267
+8,all feats,Ridge,RISE_std,-0.32453876604767373
+8,all feats,Ridge,RISE_median,-0.23601057133343506
+8,all feats,Ridge,COUNTS_mean,-0.26398650985999517
+8,all feats,Ridge,COUNTS_std,0.016576216443200398
+8,all feats,Ridge,COUNTS_median,-0.19533325797771894
+8,all feats,Ridge,DURATION_mean,0.06311103497889814
+8,all feats,Ridge,DURATION_std,0.027846758495424506
+8,all feats,Ridge,DURATION_median,0.3714219855144769
+8,all feats,Ridge,AMP_mean,-0.5348531217054795
+8,all feats,Ridge,AMP_std,0.8637857785198285
+8,all feats,Ridge,AMP_median,-0.6250309759252035
+8,all feats,Ridge,A_FRQ_mean,-0.14015284107047954
+8,all feats,Ridge,A_FRQ_std,1.364053590187997
+8,all feats,Ridge,A_FRQ_median,-0.33324292264354405
+8,all feats,Ridge,FRQ_C_mean,-0.5387692658399286
+8,all feats,Ridge,FRQ_C_std,-0.7410806854761876
+8,all feats,Ridge,FRQ_C_median,-0.6423512111308209
+8,all feats,Ridge,P_FRQ_mean,1.2997838029061957
+8,all feats,Ridge,P_FRQ_std,-2.5762610794463043
+8,all feats,Ridge,P_FRQ_median,0.5993967236465032
+8,all feats,Ridge,SIG_STRNGTH_mean,0.016976923616316864
+8,all feats,Ridge,SIG_STRNGTH_std,0.7055188376309296
+8,all feats,Ridge,SIG_STRNGTH_median,0.09448394647911407
+8,all feats,Ridge,logE_mean,-0.7534726276050963
+8,all feats,Ridge,logE_std,0.7221290807293885
+8,all feats,Ridge,logE_p95,-0.15257368732907128
+8,all feats,RandomForest,travel_speed,0.02152544573701388
+8,all feats,RandomForest,heat_input,0.19624949478090123
+8,all feats,RandomForest,ABS_ENERGY_blockstd,0.01016904358517842
+8,all feats,RandomForest,RISE_blockmean,0.004666706089423128
+8,all feats,RandomForest,n_hits,0.03401088839037245
+8,all feats,RandomForest,duration_s,0.35050114165035184
+8,all feats,RandomForest,hit_rate,0.0213745526943705
+8,all feats,RandomForest,ABS_ENERGY_mean,0.0012525600767049035
+8,all feats,RandomForest,ABS_ENERGY_std,0.00720378061432283
+8,all feats,RandomForest,ABS_ENERGY_median,0.0013378927860503292
+8,all feats,RandomForest,RISE_std,0.005781603107976127
+8,all feats,RandomForest,RISE_median,0.002793071643408616
+8,all feats,RandomForest,COUNTS_mean,0.010276004663752161
+8,all feats,RandomForest,COUNTS_std,0.0043865272655917
+8,all feats,RandomForest,COUNTS_median,0.007136645681463594
+8,all feats,RandomForest,DURATION_mean,0.004297386013660869
+8,all feats,RandomForest,DURATION_std,0.0054986109779619294
+8,all feats,RandomForest,DURATION_median,0.00045338015468567705
+8,all feats,RandomForest,AMP_mean,0.002408686001592606
+8,all feats,RandomForest,AMP_std,0.014716601061520852
+8,all feats,RandomForest,AMP_median,0.0006754663435230874
+8,all feats,RandomForest,A_FRQ_mean,0.02012544653178705
+8,all feats,RandomForest,A_FRQ_std,0.035772883318981465
+8,all feats,RandomForest,A_FRQ_median,0.01163930493150603
+8,all feats,RandomForest,FRQ_C_mean,0.001376597100874223
+8,all feats,RandomForest,FRQ_C_std,0.034330881526693495
+8,all feats,RandomForest,FRQ_C_median,0.0014858495794766377
+8,all feats,RandomForest,P_FRQ_mean,0.0013065694832235459
+8,all feats,RandomForest,P_FRQ_std,0.1594944765683844
+8,all feats,RandomForest,P_FRQ_median,0.0022834851965561373
+8,all feats,RandomForest,SIG_STRNGTH_mean,0.0009454271563076693
+8,all feats,RandomForest,SIG_STRNGTH_std,0.011688184765436116
+8,all feats,RandomForest,SIG_STRNGTH_median,0.00047746827615982297
+8,all feats,RandomForest,logE_mean,0.002139393794689037
+8,all feats,RandomForest,logE_std,0.00615688001854675
+8,all feats,RandomForest,logE_p95,0.004061662431551053
+100,heat_input only,Ridge,heat_input,0.0008415581191137676
+100,heat_input only,RandomForest,heat_input,1.0
+100,process params,Ridge,heat_input,0.0008416918912077282
+100,process params,Ridge,travel_speed,0.0012816890798244731
+100,process params,RandomForest,heat_input,0.7739130434782608
+100,process params,RandomForest,travel_speed,0.22608695652173913
+100,notebook feats,Ridge,heat_input,0.0008417743001392446
+100,notebook feats,Ridge,ABS_ENERGY_blockstd,0.0005899920211265392
+100,notebook feats,Ridge,RISE_blockmean,-0.0016138607543226006
+100,notebook feats,RandomForest,heat_input,0.16379310344827586
+100,notebook feats,RandomForest,ABS_ENERGY_blockstd,0.21551724137931033
+100,notebook feats,RandomForest,RISE_blockmean,0.6206896551724138
+100,AE feats only,Ridge,ABS_ENERGY_blockstd,0.010391956560976093
+100,AE feats only,Ridge,RISE_blockmean,-0.018351567877815424
+100,AE feats only,Ridge,n_hits,0.02345726004644012
+100,AE feats only,Ridge,duration_s,-0.030811958994961138
+100,AE feats only,Ridge,hit_rate,0.028475505249293754
+100,AE feats only,Ridge,ABS_ENERGY_mean,0.003017999421107964
+100,AE feats only,Ridge,ABS_ENERGY_std,0.009908131339230245
+100,AE feats only,Ridge,ABS_ENERGY_median,0.0008120970682545835
+100,AE feats only,Ridge,RISE_std,-0.01973784948043386
+100,AE feats only,Ridge,RISE_median,-0.017201778347187283
+100,AE feats only,Ridge,COUNTS_mean,-0.02297269868451858
+100,AE feats only,Ridge,COUNTS_std,-0.020317905881535554
+100,AE feats only,Ridge,COUNTS_median,-0.022703557858169292
+100,AE feats only,Ridge,DURATION_mean,-0.01715022922652839
+100,AE feats only,Ridge,DURATION_std,-0.017979924231773314
+100,AE feats only,Ridge,DURATION_median,-0.016507279491593845
+100,AE feats only,Ridge,AMP_mean,-0.013792467389654967
+100,AE feats only,Ridge,AMP_std,-0.0019841492448509825
+100,AE feats only,Ridge,AMP_median,-0.013542113582866281
+100,AE feats only,Ridge,A_FRQ_mean,-0.025311594841492348
+100,AE feats only,Ridge,A_FRQ_std,0.007138915515983442
+100,AE feats only,Ridge,A_FRQ_median,-0.022723049104105338
+100,AE feats only,Ridge,FRQ_C_mean,0.006771105472076024
+100,AE feats only,Ridge,FRQ_C_std,-0.01108938805730855
+100,AE feats only,Ridge,FRQ_C_median,0.007415260990856324
+100,AE feats only,Ridge,P_FRQ_mean,0.002722262599409455
+100,AE feats only,Ridge,P_FRQ_std,-0.05054675230991707
+100,AE feats only,Ridge,P_FRQ_median,0.009070109746299407
+100,AE feats only,Ridge,SIG_STRNGTH_mean,-0.007679968535932228
+100,AE feats only,Ridge,SIG_STRNGTH_std,-0.0023958410971025973
+100,AE feats only,Ridge,SIG_STRNGTH_median,-0.007822976198523436
+100,AE feats only,Ridge,logE_mean,-0.015401547272298928
+100,AE feats only,Ridge,logE_std,0.0126756604088553
+100,AE feats only,Ridge,logE_p95,-0.015201522767986211
+100,AE feats only,RandomForest,ABS_ENERGY_blockstd,0.017241379310344827
+100,AE feats only,RandomForest,RISE_blockmean,0.0
+100,AE feats only,RandomForest,n_hits,0.034482758620689655
+100,AE feats only,RandomForest,duration_s,0.02586206896551724
+100,AE feats only,RandomForest,hit_rate,0.02586206896551724
+100,AE feats only,RandomForest,ABS_ENERGY_mean,0.008620689655172414
+100,AE feats only,RandomForest,ABS_ENERGY_std,0.008620689655172414
+100,AE feats only,RandomForest,ABS_ENERGY_median,0.008620689655172414
+100,AE feats only,RandomForest,RISE_std,0.02586206896551724
+100,AE feats only,RandomForest,RISE_median,0.07758620689655173
+100,AE feats only,RandomForest,COUNTS_mean,0.04310344827586207
+100,AE feats only,RandomForest,COUNTS_std,0.008620689655172414
+100,AE feats only,RandomForest,COUNTS_median,0.034482758620689655
+100,AE feats only,RandomForest,DURATION_mean,0.017241379310344827
+100,AE feats only,RandomForest,DURATION_std,0.05172413793103448
+100,AE feats only,RandomForest,DURATION_median,0.02586206896551724
+100,AE feats only,RandomForest,AMP_mean,0.008620689655172414
+100,AE feats only,RandomForest,AMP_std,0.008620689655172414
+100,AE feats only,RandomForest,AMP_median,0.02586206896551724
+100,AE feats only,RandomForest,A_FRQ_mean,0.02586206896551724
+100,AE feats only,RandomForest,A_FRQ_std,0.09482758620689655
+100,AE feats only,RandomForest,A_FRQ_median,0.02586206896551724
+100,AE feats only,RandomForest,FRQ_C_mean,0.0
+100,AE feats only,RandomForest,FRQ_C_std,0.05172413793103448
+100,AE feats only,RandomForest,FRQ_C_median,0.0
+100,AE feats only,RandomForest,P_FRQ_mean,0.0
+100,AE feats only,RandomForest,P_FRQ_std,0.25862068965517243
+100,AE feats only,RandomForest,P_FRQ_median,0.02586206896551724
+100,AE feats only,RandomForest,SIG_STRNGTH_mean,0.0
+100,AE feats only,RandomForest,SIG_STRNGTH_std,0.008620689655172414
+100,AE feats only,RandomForest,SIG_STRNGTH_median,0.0
+100,AE feats only,RandomForest,logE_mean,0.02586206896551724
+100,AE feats only,RandomForest,logE_std,0.008620689655172414
+100,AE feats only,RandomForest,logE_p95,0.017241379310344827
+100,all feats,Ridge,travel_speed,0.013303361088615608
+100,all feats,Ridge,heat_input,0.008485763982522739
+100,all feats,Ridge,ABS_ENERGY_blockstd,0.0070962536362896575
+100,all feats,Ridge,RISE_blockmean,-0.013936043138736783
+100,all feats,Ridge,n_hits,0.01746520123711559
+100,all feats,Ridge,duration_s,-0.022208103458348345
+100,all feats,Ridge,hit_rate,0.021053939185350777
+100,all feats,Ridge,ABS_ENERGY_mean,0.0016165215358633102
+100,all feats,Ridge,ABS_ENERGY_std,0.006645443670847665
+100,all feats,Ridge,ABS_ENERGY_median,4.930046496750835e-05
+100,all feats,Ridge,RISE_std,-0.014939866043265054
+100,all feats,Ridge,RISE_median,-0.013096461297155627
+100,all feats,Ridge,COUNTS_mean,-0.017263632541880486
+100,all feats,Ridge,COUNTS_std,-0.015343804034287107
+100,all feats,Ridge,COUNTS_median,-0.017068810910222172
+100,all feats,Ridge,DURATION_mean,-0.013068563508826613
+100,all feats,Ridge,DURATION_std,-0.01351342074615071
+100,all feats,Ridge,DURATION_median,-0.012607865720528523
+100,all feats,Ridge,AMP_mean,-0.010640656187412301
+100,all feats,Ridge,AMP_std,-0.002020863296327873
+100,all feats,Ridge,AMP_median,-0.010462308606662012
+100,all feats,Ridge,A_FRQ_mean,-0.01895323304040016
+100,all feats,Ridge,A_FRQ_std,0.005653375192042525
+100,all feats,Ridge,A_FRQ_median,-0.017090586912270143
+100,all feats,Ridge,FRQ_C_mean,0.005503826084867316
+100,all feats,Ridge,FRQ_C_std,-0.008370574037026837
+100,all feats,Ridge,FRQ_C_median,0.005991264532020238
+100,all feats,Ridge,P_FRQ_mean,0.0016317997463999357
+100,all feats,Ridge,P_FRQ_std,-0.03694388159901111
+100,all feats,Ridge,P_FRQ_median,0.006281819533093505
+100,all feats,Ridge,SIG_STRNGTH_mean,-0.006171427851925867
+100,all feats,Ridge,SIG_STRNGTH_std,-0.0023693151947827905
+100,all feats,Ridge,SIG_STRNGTH_median,-0.006277317311327024
+100,all feats,Ridge,logE_mean,-0.01179587328052041
+100,all feats,Ridge,logE_std,0.009580100333123027
+100,all feats,Ridge,logE_p95,-0.01166159142337643
+100,all feats,RandomForest,travel_speed,0.0
+100,all feats,RandomForest,heat_input,0.04310344827586208
+100,all feats,RandomForest,ABS_ENERGY_blockstd,0.0
+100,all feats,RandomForest,RISE_blockmean,0.008620689655172415
+100,all feats,RandomForest,n_hits,0.008620689655172415
+100,all feats,RandomForest,duration_s,0.025862068965517244
+100,all feats,RandomForest,hit_rate,0.0
+100,all feats,RandomForest,ABS_ENERGY_mean,0.0
+100,all feats,RandomForest,ABS_ENERGY_std,0.008620689655172415
+100,all feats,RandomForest,ABS_ENERGY_median,0.01724137931034483
+100,all feats,RandomForest,RISE_std,0.03448275862068966
+100,all feats,RandomForest,RISE_median,0.025862068965517244
+100,all feats,RandomForest,COUNTS_mean,0.01724137931034483
+100,all feats,RandomForest,COUNTS_std,0.060344827586206906
+100,all feats,RandomForest,COUNTS_median,0.03448275862068966
+100,all feats,RandomForest,DURATION_mean,0.025862068965517244
+100,all feats,RandomForest,DURATION_std,0.03448275862068966
+100,all feats,RandomForest,DURATION_median,0.025862068965517244
+100,all feats,RandomForest,AMP_mean,0.008620689655172415
+100,all feats,RandomForest,AMP_std,0.01724137931034483
+100,all feats,RandomForest,AMP_median,0.01724137931034483
+100,all feats,RandomForest,A_FRQ_mean,0.03448275862068966
+100,all feats,RandomForest,A_FRQ_std,0.09482758620689656
+100,all feats,RandomForest,A_FRQ_median,0.025862068965517244
+100,all feats,RandomForest,FRQ_C_mean,0.008620689655172415
+100,all feats,RandomForest,FRQ_C_std,0.07758620689655174
+100,all feats,RandomForest,FRQ_C_median,0.008620689655172415
+100,all feats,RandomForest,P_FRQ_mean,0.0
+100,all feats,RandomForest,P_FRQ_std,0.24137931034482762
+100,all feats,RandomForest,P_FRQ_median,0.025862068965517244
+100,all feats,RandomForest,SIG_STRNGTH_mean,0.008620689655172415
+100,all feats,RandomForest,SIG_STRNGTH_std,0.008620689655172415
+100,all feats,RandomForest,SIG_STRNGTH_median,0.0
+100,all feats,RandomForest,logE_mean,0.03448275862068966
+100,all feats,RandomForest,logE_std,0.008620689655172415
+100,all feats,RandomForest,logE_p95,0.008620689655172415
